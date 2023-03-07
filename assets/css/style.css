@@ -65,14 +65,19 @@ img{
  }
  
 .iconbox{
-    height: 400px;
+    height: 350px;
     width: 200px;
     
 }
 .bg-base{
-   
     background-color: var(--color-brand);
 }
+
+.iconicbox{
+    height: 450px;
+    width: 350px;
+}
+   
    
 
     
@@ -116,7 +121,7 @@ img{
 
 
 .btn{
-    padding: 12px 18px;
+    padding: 28px 20px;
     font-weight: 700;
 }
 .btn-brand{
@@ -147,6 +152,7 @@ img{
 .link-custom:hover::after{
     width: 100%;
 }
+
 
 
 
