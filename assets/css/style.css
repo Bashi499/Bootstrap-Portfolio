@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+:root{
+    --color-body: white;
+    --color-heading: white;
+    --color-base: rgb(0, 0, 0);
+    --color-base2: rgb(105, 105, 105);
+    --color-brand: rgb(186, 104, 16);
+    --color-brand2: rgba(104, 76, 25, 0.317);
+    --sidebar-width: 240px;
+    --font-base: "Bai Jamjuree"
+}
+
+body{
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    font-family: var(--font-base) sans-serif; 
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+ 
+a:hover{
+    color: var(--color-brand);
+}
+
+img{
+    width: 100%;
+}
+
+.text-brand{
+    color: var(--color-brand);
+}
+
+
+.text-brand{
+    color: black;
+}
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    padding-top: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.shadow-effect{
+    transition: all 0.5s;
+}
+ .shadow-effect:hover{
+    box-shadow: 0 0 0 8px var(--color-brand);
+ }
+ 
+.iconbox{
+    height: 400px;
+    width: 200px;
+    
+}
+.bg-base{
+   
+    background-color: var(--color-brand);
+}
+   
+
+    
+  
+    
+  
+    
+
+
+/*NAVBAR*/
+.navbar{
+    background-color: var(--color-base);
+}
+.navbar nav-link{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar .nav-link.active{
+    color: rgb(219, 30, 30);
+}
+    
+
+@media (min-width: 992px) {
+
+    .navbar{
+        min-height: 100vh;
+        width: var(--sidebar-width); 
+        background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+
+#content-wrapper{
+    padding-left: var(--sidebar-width);
+}
+
+
+.btn{
+    padding: 12px 18px;
+    font-weight: 700;
+}
+.btn-brand{
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    border-color: black;
+}
+.btn-brand:hover
+.btn-brand:focus{
+    background-color: var(--color-brand2);
+    color: var(--color-base);
+    border-color: var(--color-brand2);
+}
+.link-custom{
+    font-weight: 700;
+    position: relative;
+}
+.link-custom::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-brand);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+.link-custom:hover::after{
+    width: 100%;
+}
+
+
+
+.card-custom .card-custom-image{
+    overflow: hidden;
+}
+.card-custom .card-custom-image img{
+    transition: all 0.4s ease;
+}
+.card-custom:hover .card-custom-image img{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+    
+
+
+
+    
+      
+        
+        
+    
+         
+        
+
+
+
+
+
