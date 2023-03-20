@@ -4,9 +4,9 @@
 :root{
     --color-body: white;
     --color-heading: white;
-    --color-base: rgb(0, 0, 0);
-    --color-base2: rgb(105, 105, 105);
-    --color-brand: rgb(186, 104, 16);
+    --color-base: rgb(192, 19, 19);
+    --color-base2: rgb(188, 94, 13);
+    --color-brand: rgb(199, 126, 48);
     --color-brand2: rgba(104, 76, 25, 0.317);
     --sidebar-width: 240px;
     --font-base: "Bai Jamjuree"
